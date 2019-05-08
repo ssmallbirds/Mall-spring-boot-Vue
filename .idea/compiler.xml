@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ly-api-gateway" />
+        <module name="ly-item-interface" />
+        <module name="ly-item-service" />
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
@@ -13,6 +16,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="leyou" options="-parameters" />
+      <module name="ly-api-gateway" options="-parameters" />
+      <module name="ly-item" options="-parameters" />
+      <module name="ly-item-interface" options="-parameters" />
+      <module name="ly-item-service" options="-parameters" />
       <module name="ly-registry" options="-parameters" />
     </option>
   </component>
