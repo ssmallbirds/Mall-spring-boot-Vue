@@ -12,6 +12,14 @@
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou" target="1.8" />
+      <module name="ly-api-gateway" target="1.8" />
+      <module name="ly-item" target="1.8" />
+      <module name="ly-item-interface" target="1.8" />
+      <module name="ly-item-service" target="1.8" />
+      <module name="ly-registry" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
